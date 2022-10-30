@@ -135,7 +135,6 @@ var taskCompleted=function(){
 
 }
 
-
 var taskIncomplete=function(){
 
 //Mark task as incomplete.

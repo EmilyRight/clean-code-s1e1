@@ -34,6 +34,7 @@
 }
 .add-new-task__wrapper {
   display: flex;
+  padding: 20px 0;
 }
 .tasks__list {
   margin: 0;
@@ -94,12 +95,6 @@
   color: #333;
 }
 
-/* New Task */
-.add-new-task__label {
-  display: block;
-  margin: 1em 0 20px;
-}
-
 /* Task list */
 .tasks__item {
   overflow: hidden;
@@ -109,9 +104,6 @@
   justify-content: space-between;
   align-items: center;
 }
-/* .tasks__item > * {
-  vertical-align: middle;
-} */
 
 .tasks__input_checkbox {
   margin: 0 10px;
