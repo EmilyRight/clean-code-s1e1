@@ -26,18 +26,18 @@
       </a>
     </header>
     <main class="main-content">
-      <section class="adding-tasks">
-        <label class="label adding-tasks__label" for="tasks__input_new"
+      <section class="add-new-task">
+        <label class="label add-new-task__label" for="add-new-task__input"
           >Add Item</label
         >
-        <div class="adding-tasks__wrapper">
-          <input class="tasks__input_new" type="text" />
-          <button class="add-task__btn btn">Add</button>
+        <div class="add-new-task__wrapper">
+          <input class="add-new-task__input" type="text" />
+          <button class="add-new-task__btn btn">Add</button>
         </div>
       </section>
-      <section class="tasks incomplete-tasks">
+      <section class="tasks tasks_incomplete">
         <h3 class="tasks__title">Todo</h3>
-        <ul class="tasks__list incomplete-tasks__list">
+        <ul class="tasks__list tasks__list_incomplete">
           <li class="tasks__item">
             <input class="tasks__input_checkbox" type="checkbox" />
             <label class="label">Pay Bills</label>
@@ -58,9 +58,9 @@
           </li>
         </ul>
       </section>
-      <section class="tasks complete-tasks">
+      <section class="tasks completed-tasks">
         <h3 class="tasks__title">Completed</h3>
-        <ul class="tasks__list completed-tasks__list">
+        <ul class="tasks__list tasks__list_completed">
           <li class="tasks__item">
             <input class="tasks__input_checkbox" type="checkbox" checked />
             <label class="label label_completed">See the Doctor</label>
