@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: fantasy, cursive;
 }
@@ -22,34 +25,41 @@
     text-align: center;
   }
 }
+
 .main-content {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .tasks__label,
 .tasks__input_text {
   display: inline-block;
   flex-grow: 1;
 }
+
 .add-new-task__wrapper {
   display: flex;
   padding: 20px 0;
 }
+
 .tasks__list {
   margin: 0;
   padding: 0px;
 }
+
 .tasks__item,
 .tasks__title {
   list-style: none;
 }
+
 .tasks__input_text,
 .add-new-task__input,
 .tasks__input_checkbox,
 .btn {
   outline: none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -59,6 +69,7 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
@@ -90,8 +101,9 @@
   color: #888;
   width: 218px;
 }
+
 .tasks__input_text:focus,
-.add-new-task__input:focus{
+.add-new-task__input:focus {
   color: #333;
 }
 
