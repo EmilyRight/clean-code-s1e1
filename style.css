@@ -27,7 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.label,
+.tasks__label,
 .tasks__input_text {
   display: inline-block;
   flex-grow: 1;
@@ -116,17 +116,17 @@
   width: 85%;
 }
 
-.delete-task__img {
+.delete-task-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-task__img:hover {
+.delete-task-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.label_completed {
+.tasks__label_completed {
   text-decoration: line-through;
   color: #888;
 }
@@ -141,6 +141,6 @@
   width: 224px;
 }
 
-.label_edit {
+.tasks__label_edit {
   display: none;
 }
